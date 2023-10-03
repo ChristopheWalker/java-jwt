@@ -1,6 +1,6 @@
-# Examples using java-jwt
+!#Examples using java-jwt
 
-* [Inspecting a DecodedJWT](#inspecting-a-decodedjwt)
+# [Inspecting a DecodedJWT](#inspecting-a-decodedjwt)
 * [DateTime Claim Validation](#datetime-claim-validation)
 * [Using custom claims](#using-custom-claims)
 * [Using a KeyProvider](#using-a-keyprovider)
@@ -128,3 +128,4 @@ RSAKeyProvider keyProvider = new RSAKeyProvider() {
 Algorithm algorithm = Algorithm.RSA256(keyProvider);
 //Use the Algorithm to create and verify JWTs.
 ```
+ 
