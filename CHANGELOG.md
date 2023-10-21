@@ -3,7 +3,7 @@
 ## [4.4.0](https://github.com/auth0/java-jwt/tree/4.4.0) (2023-03-31)
 [Full Changelog](https://github.com/auth0/java-jwt/compare/4.3.0...4.4.0)
 
-**Changed**
+ *Changed**
 - Add support for passing json values for header and payload [\#643](https://github.com/auth0/java-jwt/pull/643) ([andrewrigas](https://github.com/andrewrigas))
 - Preserve insertion order for claims [\#656](https://github.com/auth0/java-jwt/pull/656) ([snago](https://github.com/snago))
 - Update Jackson to 2.14.2 [\#657](https://github.com/auth0/java-jwt/pull/657) ([jimmyjames](https://github.com/jimmyjames))
@@ -67,7 +67,7 @@ Please review [the README note for additional details.](https://github.com/auth0
 ## [4.0.0](https://github.com/auth0/java-jwt/tree/4.0.0) (2022-06-24)
 [Full Changelog](https://github.com/auth0/java-jwt/compare/3.19.2...4.0.0)
 
-**This is a major release and contains breaking changes!**
+**This is a major release and contains breaking changes **
 
 - Check the [Migration Guide](https://github.com/auth0/java-jwt/blob/master/MIGRATION_GUIDE.md) to understand the changes required to migrate your application to v4.
 
@@ -452,3 +452,4 @@ The library implements JWT Verification and Signing using the following algorith
 | ES256 | ECDSA256 | ECDSA with curve P-256 and SHA-256 |
 | ES384 | ECDSA384 | ECDSA with curve P-384 and SHA-384 |
 | ES512 | ECDSA512 | ECDSA with curve P-521 and SHA-512 |
+ 
